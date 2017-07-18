@@ -1,0 +1,111 @@
+#h1portada {
+	font-size: 95%;
+	color: black;
+}
+
+#h3portada {
+	font-size: 70%;
+	color: black;
+}
+
+#h4portada {
+	font-size: 55%;
+	color: black;
+}
+
+#autores {
+	position: fixed;
+
+	margin: 0;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+    font-size: 55%;
+	color: black;
+}
+
+#autores ul {
+    list-style:none;
+}
+
+.reveal .img_noborder {
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+.reveal div .rectangulo {
+     width: 75%;
+     height: 50px;
+	 font-size: 45%;
+	 font-family: 'Varela Round';
+	 margin: auto;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+
+.reveal div .rectanguloE {
+
+	 font-size: 35%;
+
+}
+
+.reveal section .title {
+
+    border-color: white;
+    border-style: none none solid;
+    border-width: 0.5px;
+    font-size: 1em;
+    margin: 0 0 75px;
+}
+.reveal section .author {
+
+    display: inline-block;
+    font-size: 0.55em;
+    margin: 0 0 10px;
+
+}
+.reveal section .affilation {
+
+	font-style: italic;
+    font-size: 0.45em;
+    margin: 0 0 100px;
+
+}
+.reveal section .name_congress {
+	text-align:right;
+    font-size: 0.4em;
+    margin: 0 0 5px;
+}
+.reveal section .date {
+
+    /*float: right;*/
+    font-size: 0.3em;
+    padding: 10px;
+	text-align:right;
+}
+
+.reveal pre {
+  font-size: 0.35em;
+}
+
+.reveal blockquote {
+	font-size: 0.65em;
+  /*background: #f9f9f9;*/
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.reveal blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.revela blockquote p {
+  display: inline;
+}
